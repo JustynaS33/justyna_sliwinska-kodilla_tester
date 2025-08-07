@@ -6,6 +6,5 @@ public class SimpleArray {
         animals[2] = "bird";
         animals[3] = "elephant";
         animals[4] = "lion";
-
     }
 }
