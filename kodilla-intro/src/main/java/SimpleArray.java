@@ -6,5 +6,10 @@ public class SimpleArray {
         animals[2] = "bird";
         animals[3] = "elephant";
         animals[4] = "lion";
+
+    String selectedAnimal = animals[3];
+
+    System.out.println("Element na indeksie 3 to: " + selectedAnimal);
+
     }
 }
