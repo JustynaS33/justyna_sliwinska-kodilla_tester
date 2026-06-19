@@ -13,7 +13,9 @@ public class SimpleArray {
 
         System.out.println(bookTitle);
         System.out.println("Element na indeksie 3 to: " + bookTitle);
-        System.out.println("Moja tablica zawiera: "+ bookTitle);
-
+        System.out.println("Moja tablica zawiera: " + bookTitle);
+        System.out.println("Moja tablica zawiera 6 elementów");
+        System.out.println(bookTitles[1]);
+        System.out.println(numberOfElements);
     }
 }
