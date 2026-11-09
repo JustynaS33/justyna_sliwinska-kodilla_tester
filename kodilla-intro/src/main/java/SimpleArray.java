@@ -9,6 +9,7 @@ public class SimpleArray {
         bookTitles[5] = "Tam gdzie serce twoje";
 
         String bookTitle = bookTitles[3];
+        String bookTitleindeks = bookTitles[4];
         int numberOfElements = bookTitles.length;
 
         System.out.println(bookTitle);
@@ -17,5 +18,6 @@ public class SimpleArray {
         System.out.println("Moja tablica zawiera 6 elementów");
         System.out.println(bookTitles[1]);
         System.out.println(numberOfElements);
+        System.out.println("Element na indeksie 4 to:" + bookTitleindeks);
     }
 }
